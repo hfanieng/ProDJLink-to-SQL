@@ -133,7 +133,7 @@ The rekordbox_id is for further use as a foreign key.
 
 Common problems and their solutions:
 
-- On MacOS the Python-Script works and writes the data in the table, on Windows it runs into an error du to the length of the timestamp.
+- On MacOS the Python-Script works and writes the data in the table, on Windows it runs into an error due to the length of the timestamp.
 
 [1]:<https://github.com/Deep-Symmetry/beat-link-trigger>
 [2]:<https://blt-guide.deepsymmetry.org/beat-link-trigger/7.4.1/Matching.html#writing-a-playlist>
