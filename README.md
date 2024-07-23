@@ -15,7 +15,6 @@ This project reads data from the ProDJLink network with [Beat Link Trigger][1], 
 5. Configuration
 6. Database structure
 7. Troubleshooting
-8. Licence
 
 ## Introduction
 
@@ -54,7 +53,8 @@ Instructions for using the project:
 
 ## Configuration
 
-1. Beat Link Trigger
+### 1. Beat Link Trigger
+
     - Edit Shared Functions:
 
     ```clojure
@@ -109,7 +109,22 @@ Instructions for using the project:
         (send-udp udp-host udp-port log-entry)))))
     ```
 
-## Database structure
+### 2. Database structure
+
+    ```mermaid
+    erDiagram
+    playlist {
+        VARCHAR track_artist
+        FLOAT track_bpm
+        VARCHAR track_device
+        VARCHAR track_genre
+        VARCHAR track_key
+        VARCHAR track_label
+        TIMESTAMP track_timestamp
+        VARCHAR track_title
+        INT rekordbox_id PK
+    }
+    ```
 
 A description of the tables and fields in the SQL database.
 
