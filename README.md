@@ -80,6 +80,8 @@ Instructions for using the project:
 
     - Set up a Trigger that is configured to watch the Master Player, and install the following Tracked Update Expression:
 
+    ![Interface][5]
+
     ```clojure
     (import '[java.net DatagramSocket DatagramPacket InetAddress])
 
@@ -139,3 +141,4 @@ Common problems and their solutions:
 [2]:<https://blt-guide.deepsymmetry.org/beat-link-trigger/7.4.1/Matching.html#writing-a-playlist>
 [3]:<https://www.pioneerdj.com/en/product/all-in-one-system/xdj-xz/black/overview/>
 [license-link]: https://github.com/hfanieng/ProDJLink-to-SQL/blob/main/LICENSE
+[5]:docs/images/Beat_Link_Triggers_interface_screenshot_Software_Interface.png
