@@ -40,6 +40,7 @@ Steps to install the required software and libraries:
 `pip install mysql.connector`  
 `pip install socket`  
 `pip install json`
+`pip install threading`
 
 3. configure the SQL database (see configuration)
 
@@ -114,11 +115,9 @@ A description of the tables and fields in the SQL database.
 
 ## Troubleshooting
 
-Common problems and their solutions.
+Common problems and their solutions:
 
-## Licence
-
-Information on licensing the project.
+*On MacOS the Python-Script works and writes the data in the table, on Windows t runs into an error du to the length of the timestamp.
 
 [1]:<https://github.com/Deep-Symmetry/beat-link-trigger>
 [2]:<https://blt-guide.deepsymmetry.org/beat-link-trigger/7.4.1/Matching.html#writing-a-playlist>
