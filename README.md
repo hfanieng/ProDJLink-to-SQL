@@ -5,8 +5,7 @@
 This project reads data from the ProDJLink network with [Beat Link Trigger][1], sends it via UDP to a Python script and then saves the data in a SQL database.
 
 > **Disclaimer**: This project is **not** affiliated with Pioneer Corp. or its related companies
-in any way and has been written independently! NowPlayingXZ is licensed under the
-[MIT license][license-link]. The maintainers of the project are not liable for any damages to your data cause this is an expermintal project.
+in any way and has been written independently! ProDJLink to SQL is licensed under the [MIT license][license-link]. The maintainers of the project are not liable for any damages to your data cause this is an expermintal project.
 
 ## Table of contents
 
@@ -35,8 +34,10 @@ A brief introduction to the project and its objectives.
 Steps to install the required software and libraries:
 
 1. clone this repository: `git clone https://github.com/hfanieng/ProDJLink-to-SQL`
-2. install the Python dependencies:
-`pip install -r requirements.txt`
+2. install the Python dependencies:  
+`pip install mysql.connector`  
+`pip install socket`  
+`pip install json`
 
 3. configure the SQL database (see configuration)
 
