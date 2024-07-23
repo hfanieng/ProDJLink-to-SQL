@@ -19,7 +19,7 @@ def socket_receiver():
 
             try:
                 json_data = json.loads(data.decode('utf-8'))  # Decoding data
-                print("JSON data successfully decoded", json_data)
+                # print("JSON data successfully decoded", json_data)
                 update_track_info(json_data)
             except json.JSONDecodeError as e:
                 print("Error when decoding JSON data!", e)

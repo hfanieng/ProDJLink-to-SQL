@@ -140,9 +140,7 @@ Common problems and their solutions:
 
 ## Equipment used for the project
 
-All tests runs with the old but great [Pioneer XDJ-XZ][3] with ❤️ and 🤩 at my hometown [Hagen-Wheringhausen][7].
-
-![XDJ-XZ][6]
+All tests runs with the old but great [Pioneer XDJ-XZ][3] with ❤️ and 🤩 at my hometown [Hagen-Wheringhausen][7].![XDJ-XZ][6]
 
 [1]:<https://github.com/Deep-Symmetry/beat-link-trigger>
 [2]:<https://blt-guide.deepsymmetry.org/beat-link-trigger/7.4.1/Matching.html#writing-a-playlist>

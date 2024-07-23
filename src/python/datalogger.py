@@ -43,7 +43,7 @@ def update_track_info(json_data):
         "track_title": json_data.get("title"),
         "rekordbox_id": json_data.get("id")
     }
-
+    
     socketio.emit('update', track_data)
     save_to_database(track_data)
     add_to_history(track_data)
@@ -54,6 +54,7 @@ def save_to_database(track_data):
         db_connection = mysql.connector.connect(**config)
         
         if db_connection.is_connected():
+            print ("MySQL connection established")
             cursor = db_connection.cursor()
             insert_query = """
                 INSERT INTO playlist (track_artist, track_bpm, track_device, track_genre, track_key, track_label, track_timestamp, track_title, rekordbox_id)
@@ -70,6 +71,7 @@ def save_to_database(track_data):
                 track_data["track_title"],
                 track_data["rekordbox_id"]
             )
+            print ("Timestamp:", track_data["track_timestamp"])
             cursor.execute(insert_query, track_data_tuple)
             db_connection.commit()
             print("Track data successfully written to the database")
