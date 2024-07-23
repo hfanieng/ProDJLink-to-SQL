@@ -53,7 +53,7 @@ Instructions for using the project:
 
 ## Configuration
 
-### 1. Beat Link Trigger
+1. Beat Link Trigger
 
     - Edit Shared Functions:
 
@@ -109,11 +109,12 @@ Instructions for using the project:
         (send-udp udp-host udp-port log-entry)))))
     ```
 
-### 2. Database structure
+2. Database structure
 
     ```mermaid
     erDiagram
     playlist {
+        INT track_id PK
         VARCHAR track_artist
         FLOAT track_bpm
         VARCHAR track_device
@@ -122,17 +123,17 @@ Instructions for using the project:
         VARCHAR track_label
         TIMESTAMP track_timestamp
         VARCHAR track_title
-        INT rekordbox_id PK
+        INT rekordbox_id FK
     }
     ```
 
-A description of the tables and fields in the SQL database.
+The rekordbox_id is for further use as a foreign key.
 
 ## Troubleshooting
 
 Common problems and their solutions:
 
-*On MacOS the Python-Script works and writes the data in the table, on Windows t runs into an error du to the length of the timestamp.
+- On MacOS the Python-Script works and writes the data in the table, on Windows it runs into an error du to the length of the timestamp.
 
 [1]:<https://github.com/Deep-Symmetry/beat-link-trigger>
 [2]:<https://blt-guide.deepsymmetry.org/beat-link-trigger/7.4.1/Matching.html#writing-a-playlist>
