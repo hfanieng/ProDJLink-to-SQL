@@ -39,7 +39,7 @@ Steps to install the required software and libraries:
 2. install the Python dependencies:  
 `pip install mysql.connector`  
 `pip install socket`  
-`pip install json`
+`pip install json`  
 `pip install threading`
 
 3. configure the SQL database (see configuration)
