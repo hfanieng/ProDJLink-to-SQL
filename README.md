@@ -15,6 +15,7 @@ This project reads data from the ProDJLink network with [Beat Link Trigger][1], 
 5. Configuration
 6. Database structure
 7. Troubleshooting
+8. Equipment
 
 ## Introduction
 
@@ -137,8 +138,16 @@ Common problems and their solutions:
 
 - On MacOS the Python-Script works and writes the data in the table, on Windows it runs into an error due to the length of the timestamp.
 
+## Equipment used for the project
+
+All tests runs with the old but great [Pioneer XDJ-XZ][3] with ❤️ and 🤩 at my hometown [Hagen-Wheringhausen][7].
+
+![XDJ-XZ][6]
+
 [1]:<https://github.com/Deep-Symmetry/beat-link-trigger>
 [2]:<https://blt-guide.deepsymmetry.org/beat-link-trigger/7.4.1/Matching.html#writing-a-playlist>
 [3]:<https://www.pioneerdj.com/en/product/all-in-one-system/xdj-xz/black/overview/>
-[license-link]: https://github.com/hfanieng/ProDJLink-to-SQL/blob/main/LICENSE
 [5]:docs/images/Beat_Link_Triggers_interface_screenshot_Software_Interface.png
+[6]:<https://www.pioneerdj.com/-/media/pioneerdj/images/products/all-in-one-system/xdj-xz/xdj-xz_prm_top.png?h=1316&w=1792&hash=CDDC51D731D7571112C6D6AB25B04626>
+[7]: <https://de.wikipedia.org/wiki/Wehringhausen>
+[license-link]: https://github.com/hfanieng/ProDJLink-to-SQL/blob/main/LICENSE
