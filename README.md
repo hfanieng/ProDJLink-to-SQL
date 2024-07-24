@@ -2,7 +2,7 @@
 
 ## Project description
 
-This project reads data from the ProDJLink network with [Beat Link Trigger][1], sends it via UDP to a Python script and then saves the data in a SQL database.
+This project utilizes [Beat Link Trigger][1] to read data from the ProDJLink network, transmits the data via UDP to a Python script, and subsequently stores it in a SQL database
 
 > **Disclaimer**: This project is **not** affiliated with Pioneer Corp. or its related companies in any way and has been written independently! ProDJLink to SQL is licensed under the [MIT license][license-link]. The maintainers of the project are not liable for any damages to your data cause this is an experimintal project.
 
