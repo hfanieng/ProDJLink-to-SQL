@@ -134,7 +134,8 @@ Instructions for using the project:
 
 The rekordbox_id is for further use as a foreign key.
 
-Example for a successful done entry in the database:
+Example for successful done entries in the SQL-database:
+![MySQL-Database][8]
 
 ## Troubleshooting
 
@@ -152,4 +153,5 @@ All tests runs with the old but great [Pioneer XDJ-XZ][3] with ❤️ and 🤩 a
 [5]:docs/images/Beat_Link_Triggers_interface_screenshot_Software_Interface.png
 [6]:<https://www.pioneerdj.com/-/media/pioneerdj/images/products/all-in-one-system/xdj-xz/xdj-xz_prm_top.png?h=1316&w=1792&hash=CDDC51D731D7571112C6D6AB25B04626>
 [7]: <https://de.wikipedia.org/wiki/Wehringhausen>
+[8]: docs/images/Database_table_showing_playlist_Database_screenshot.png
 [license-link]: https://github.com/hfanieng/ProDJLink-to-SQL/blob/main/LICENSE
