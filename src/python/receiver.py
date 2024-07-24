@@ -23,5 +23,7 @@ def socket_receiver():
                 update_track_info(json_data)
             except json.JSONDecodeError as e:
                 print("Error when decoding JSON data!", e)
+    except KeyboardInterrupt:
+        print("Socket interrupted by user")
     finally:
         sock.close()  # Close socket

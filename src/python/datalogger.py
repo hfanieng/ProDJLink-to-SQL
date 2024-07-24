@@ -39,7 +39,7 @@ def update_track_info(json_data):
         "track_genre": json_data.get("track_genre"),
         "track_key": json_data.get("key"),
         "track_label": json_data.get("label"),
-        "track_timestamp": json_data.get("timestamp"[:23]),
+        "track_timestamp": json_data.get("timestamp")[:19],
         "track_title": json_data.get("title"),
         "rekordbox_id": json_data.get("id")
     }
@@ -71,7 +71,7 @@ def save_to_database(track_data):
                 track_data["track_title"],
                 track_data["rekordbox_id"]
             )
-            print ("Timestamp:", track_data["track_timestamp"])
+            print ("Timestamp",track_data["track_timestamp"])
             cursor.execute(insert_query, track_data_tuple)
             db_connection.commit()
             print("Track data successfully written to the database")
