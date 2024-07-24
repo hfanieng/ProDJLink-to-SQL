@@ -31,6 +31,8 @@ One further option is to show the playlist on Website that is connected to a MyS
 - SQL database (e.g. MySQL, PostgreSQL)
 - UDP support
 
+> Without compatible hardware, the simulation mode can be used in the Update Track Expressions of the trigger
+
 ## Installation
 
 Steps to install the required software and libraries:
@@ -133,8 +135,6 @@ Instructions for using the project:
 The rekordbox_id is for further use as a foreign key.
 
 Example for a successful done entry in the database:
-
-
 
 ## Troubleshooting
 
